@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">
+        Guess the number(<span id="first_value">1</span>-<span id="last_value"
+          >100</span
+        >)
+      </h1>
+      <div id="message"></div>
+      <div class="enter">
+        <input type="number" name="input_numara" id="input_number" />
+        <button class="input_submit" id="input_submit">CHECK</button>
+        <button class="input_reset" id="input_reset">RESET</button>
+      </div>
+
+      <div class="content1">Write the number</div>
+      <div class="content2">Number Of Attemps: <span id="remain">5</span></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

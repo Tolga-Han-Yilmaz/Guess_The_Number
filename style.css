@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kalam", cursive;
+  }
+  
+  body {
+    background-color: #f9c5d5;
+    background-image: url(./img/flat-thinking-man-vector-29533979.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    width: 46%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+  }
+  #title {
+    font-size: 3rem;
+  }
+  .enter {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #input_number {
+    width: 50%;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .input_submit {
+    width: 4rem;
+    background-color: yellow;
+    font-size: 15px;
+    font-weight: 900;
+    outline: auto;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .input_reset {
+    width: 4rem;
+    background-color: #0004ff;
+    font-size: 15px;
+    font-weight: 900;
+    outline: auto;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .input_reset:hover {
+    background-color: #7072df;
+    border: 1px inset grey;
+  }
+  
+  .input_submit:hover {
+    border: 1px inset grey;
+    background-color: #f19595;
+  }
+  
+  .content1,
+  .content2 {
+    font-size: 2rem;
+  }
+  
+  #message {
+    font-size: 2rem;
+  }
+  img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    width: 400px;
+  }
+  
